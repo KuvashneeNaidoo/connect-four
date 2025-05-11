@@ -18,7 +18,7 @@ function GameRules({ onClose }) {
         className="bg-white px-6 rounded-4xl border-3 border-black z-10 shadow-[0px_10px_0px_black] max-w-lg w-full"
         onClick={handleModalClick}
       >
-        <h2 className="text-6xl text-center mt-10 mb-10 font-bold uppercase">
+        <h2 className="text-6xl text-center mt-5 mb-5 font-bold uppercase">
           Rules
         </h2>
 

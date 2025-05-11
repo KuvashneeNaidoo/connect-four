@@ -18,19 +18,19 @@ function GameRules({ onClose }) {
         className="bg-white px-6 rounded-4xl border-3 border-black z-10 shadow-[0px_10px_0px_black] max-w-lg w-full"
         onClick={handleModalClick}
       >
-        <h2 className="text-6xl text-center mt-5 mb-5 font-bold uppercase">
+        <h2 className="text-5xl text-center mt-5 mb-5 font-bold uppercase">
           Rules
         </h2>
 
         {/* Rules content section */}
         <div className="text-lg space-y-2 mb-16">
           <h3 className="text-[#7945FF] font-bold uppercase">Objective</h3>
-          <p className="font-medium text-md leading-tight">
+          <p className="text-md leading-tight">
             Be the first player to connect 4 of the same colored discs in a row
             (either vertically, horizontally or diagonally).
           </p>
           <h3 className="text-[#7945FF] font-bold uppercase">How to play</h3>
-          <div className="font-medium leading-tight">
+          <div className="text-md leading-tight">
             <p className="mb-3">
               <span className="mr-3 font-black">1.</span>Red goes first in the
               first game.

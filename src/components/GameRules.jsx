@@ -23,7 +23,7 @@ function GameRules({ onClose }) {
         </h2>
 
         {/* Rules content section */}
-        <div className="text-lg space-y-6 mb-16">
+        <div className="text-lg space-y-2 mb-16">
           <h3 className="text-[#7945FF] font-bold uppercase">Objective</h3>
           <p className="font-medium text-md leading-tight">
             Be the first player to connect 4 of the same colored discs in a row

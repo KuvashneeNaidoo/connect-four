@@ -1,0 +1,29 @@
+/* Import Tailwind CSS utility classes */
+@import "tailwindcss";
+
+/* Set global font */
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+/* Game board - media query for screens 350px wide or smaller */
+@media (max-width: 350px) {
+  .show-below-350 {
+    display: block;
+  }
+
+  .hide-below-350 {
+    display: none;
+  }
+}
+
+/* Game board - Media query for screens wider than 350px */
+@media (min-width: 350px) {
+  .show-below-350 {
+    display: none;
+  }
+
+  .hide-below-350 {
+    display: block;
+  }
+}

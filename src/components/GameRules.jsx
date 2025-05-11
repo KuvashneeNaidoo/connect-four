@@ -47,6 +47,9 @@ function GameRules({ onClose }) {
               <span className="mr-3 font-black">4.</span>The starter of the
               previous game goes second on the next game.
             </p>
+           <p className="mb-3">
+             <span className="mr-3 font-black">5.</span>If a player doesn’t make a move within 15 seconds, the game will automatically make a move for them.
+           </p>
           </div>
         </div>
 
